@@ -24,7 +24,53 @@ const SearchBar = styled.input`
   color: #fa26a0;
   z-index: 1;
 `;
+const Button = styled.button`
+  background: orange;
+  color: white;
+  font-size: 15px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+  margin: 20px;
+  cursor: pointer;
 
+  &:hover {
+    background: darkorange;
+  }
+
+  &:disabled {
+    background: grey;
+    cursor: not-allowed;
+    opacity: 0.6; /* Optional: Makes the button look visually 'disabled' */
+  }
+`;
+// Styled component for the page input
+const PageInput = styled.input`
+  background: white;
+  color: #333;
+  font-size: 15px;
+  padding: 10px;
+  width: 50px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0 10px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  &:focus {
+    outline: none;
+    border-color: orange;
+  }
+`;
+const PageStatistics = styled.div`
+text-align:center;
+margin-top:-8px;
+`
+const GridNavigation = styled.div`
+text-align:center;
+margin-top:-19px;
+`
 export default function Grid() {
   const [quickFilter, setQuickFilter] = useState("");
   const [gridApi, setGridApi] = useState(null);
@@ -218,7 +264,7 @@ export default function Grid() {
       />
       <div
         className="ag-theme-alpine"
-        style={{ height: "550px", width: "1104px" }}
+        style={{ height: "500px", width: "1104px" }}
       >
         <AgGridReact
           rowData={patientData}
@@ -232,11 +278,11 @@ export default function Grid() {
           quickFilterText={quickFilter}
           // onRowClicked={(event) => handleEditClick(event.data)} // Opens Edit dialog on row click
         />
-        <div style={{ display: 'flex', justifyContent: 'center', marginTop: 10 }}>
-          <button disabled={page <= 1} onClick={() => setPage(page - 1)}>
+        <GridNavigation className="gridNavigation">
+          <Button disabled={page <= 1} onClick={() => setPage(page - 1)}>
             Previous
-          </button>
-          <input
+          </Button>
+          <PageInput
             type="number"
             value={page}
             onChange={(e) => {
@@ -245,13 +291,13 @@ export default function Grid() {
             }}
             style={{ width: 50, textAlign: 'center', margin: '0 10px' }}
           />
-          <button disabled={page >= totalPages} onClick={() => setPage(page + 1)}>
+          <Button disabled={page >= totalPages} onClick={() => setPage(page + 1)}>
             Next
-          </button>
-        </div>
-        <div style={{ textAlign: 'center', marginTop: 10 }}>
+          </Button>
+        </GridNavigation>
+        <PageStatistics className="pageStatistics">
           Page {page} of {totalPages} (Total Patients: {totalPatients})
-        </div>
+        </PageStatistics>
       </div>
       <EditPatientDetails
         open={editDialogOpen}
