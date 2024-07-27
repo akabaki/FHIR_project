@@ -32,8 +32,9 @@ export default function Grid() {
   const [selectedPatient, setSelectedPatient] = useState(null);
   const [editDialogOpen, setEditDialogOpen] = useState(false);
   const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
-  const [page,setPage] = useState(1)
-  const [totalPatients,setTotalPatients] = useState("")
+  const [page, setPage] = useState(1);
+  const [totalPatients, setTotalPatients] = useState(0);
+  const pageSize = 10;
 
   const onGridReady = (params) => {
     setGridApi(params.api);
@@ -64,6 +65,7 @@ export default function Grid() {
       })
       .catch((error) => console.error("Error fetching patient data:", error));
   }, [page]);
+
 
   useEffect(() => {
     if (gridApi) {
@@ -202,6 +204,8 @@ export default function Grid() {
     },
   ];
 
+  const totalPages = Math.ceil(totalPatients / pageSize);
+
   return (
     <>
       <SearchBar
@@ -222,17 +226,32 @@ export default function Grid() {
           pagination={true}
           suppressPaginationPanel={true}
           rowSelection="multiple"
-          paginationPageSize={10}
+          paginationPageSize={pageSize}
           paginationPageSizeSelector={false}
           onGridReady={onGridReady}
           quickFilterText={quickFilter}
           // onRowClicked={(event) => handleEditClick(event.data)} // Opens Edit dialog on row click
         />
-        <button disabled={page == 1?true:false} onClick={()=>{setPage(page - 1)}}>Previous</button>
-        <input value={page} onChange={(e)=>{
-          console.log(e)
-          setPage(e.target.value)}}></input>
-        <button onClick={()=>{setPage(page+1)}}>Next</button>
+        <div style={{ display: 'flex', justifyContent: 'center', marginTop: 10 }}>
+          <button disabled={page <= 1} onClick={() => setPage(page - 1)}>
+            Previous
+          </button>
+          <input
+            type="number"
+            value={page}
+            onChange={(e) => {
+              const newPage = Math.max(1, Math.min(totalPages, Number(e.target.value)));
+              setPage(newPage);
+            }}
+            style={{ width: 50, textAlign: 'center', margin: '0 10px' }}
+          />
+          <button disabled={page >= totalPages} onClick={() => setPage(page + 1)}>
+            Next
+          </button>
+        </div>
+        <div style={{ textAlign: 'center', marginTop: 10 }}>
+          Page {page} of {totalPages} (Total Patients: {totalPatients})
+        </div>
       </div>
       <EditPatientDetails
         open={editDialogOpen}
