@@ -1,0 +1,1268 @@
+{
+    "resourceType": "Bundle",
+    "id": "2f22dff5-0c31-4da9-a8c9-0bb892dd97b1",
+    "meta": {
+        "lastUpdated": "2024-07-16T07:27:48.314+00:00"
+    },
+    "type": "searchset",
+    "link": [
+        {
+            "relation": "self",
+            "url": "https://hapi.fhir.org/baseR4/Patient"
+        },
+        {
+            "relation": "next",
+            "url": "https://hapi.fhir.org/baseR4?_getpages=2f22dff5-0c31-4da9-a8c9-0bb892dd97b1&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
+        }
+    ],
+    "entry": [
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593380",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "593380",
+                "meta": {
+                    "versionId": "2",
+                    "lastUpdated": "2020-01-30T05:33:14.919+00:00",
+                    "source": "#ticjIbYkwLN3qJFm"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"><b>PATCHTEST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>3300 Washtenaw </span><br/><span>Ann Harbor </span><span>MI </span><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>30 January 2020</span></td></tr></tbody></table></div>"
+                },
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "patchTest"
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "00-0000-0000",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "00-0000-1111",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "2020-01-30",
+                "address": [
+                    {
+                        "use": "home",
+                        "text": "3300 Washtenaw Ann Harbor, MI 48104, USA",
+                        "line": [
+                            "3300 Washtenaw"
+                        ],
+                        "city": "Ann Harbor",
+                        "state": "MI",
+                        "postalCode": "48104",
+                        "country": "USA"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593384",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "593384",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T06:01:01.149+00:00",
+                    "source": "#Vf3h0Xm3tPBZJgL4"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ruby on <b>RAILS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>cchoi80</td></tr><tr><td>Address</td><td><span>Some Address </span><br/><span>Copenhagen </span><span>Denmark </span></td></tr><tr><td>Date of birth</td><td><span>13 December 2005</span></td></tr></tbody></table></div>"
+                },
+                "identifier": [
+                    {
+                        "type": {
+                            "coding": [
+                                {
+                                    "system": "http://hl7.org/fhir/v2/0203",
+                                    "code": "MR"
+                                }
+                            ]
+                        },
+                        "value": "cchoi80"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Rails",
+                        "given": [
+                            "Ruby on"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "(555)555-5555",
+                        "use": "mobile"
+                    }
+                ],
+                "gender": "female",
+                "birthDate": "2005-12-13",
+                "address": [
+                    {
+                        "line": [
+                            "Some Address"
+                        ],
+                        "city": "Copenhagen",
+                        "postalCode": "undefined",
+                        "country": "Denmark"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593541",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "593541",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T06:29:57.915+00:00",
+                    "source": "#qNNa43i2WK3cIrvx"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 1990</span></td></tr></tbody></table></div>"
+                },
+                "gender": "male",
+                "birthDate": "1990-01-01T22:00:00.000Z"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593544",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "593544",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T06:47:06.316+00:00",
+                    "source": "#SxdZLOHixJRqVqFB"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Michael <b>BURNHAM </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>9973264355</td></tr><tr><td>Address</td><td><span>Milchstrasse 42 </span><br/><span>Spöck </span><span>DE </span></td></tr><tr><td>Date of birth</td><td><span>24 October 2226</span></td></tr></tbody></table></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+                        "value": "9973264355"
+                    },
+                    {
+                        "system": "http://starfleet-hospital.ufp/NamingSystem/patient-identifier",
+                        "value": "NCC-1032"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Burnham",
+                        "given": [
+                            "Michael"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+49 (0)12345 - 123456",
+                        "use": "home"
+                    }
+                ],
+                "birthDate": "2226-10-24",
+                "address": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://fhir.ufp/StructureDefinition/planet",
+                                "valueString": "Earth"
+                            }
+                        ],
+                        "use": "home",
+                        "type": "both",
+                        "line": [
+                            "Milchstrasse 42"
+                        ],
+                        "city": "Spöck",
+                        "postalCode": "76297",
+                        "country": "DE"
+                    }
+                ],
+                "maritalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/v3/MaritalStatus",
+                            "code": "U"
+                        }
+                    ]
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v2/0131",
+                                        "code": "N"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": {
+                            "text": "Sarek"
+                        },
+                        "telecom": [
+                            {
+                                "system": "email",
+                                "value": "sarek@vulcan-science-academy.vc"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593746",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "593746",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T06:53:09.060+00:00",
+                    "source": "#QJeFRG5rMVVQFAVn"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Michael <b>BURNHAM </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>9973264355</td></tr><tr><td>Address</td><td><span>Milchstrasse 42 </span><br/><span>Spöck </span><span>DE </span></td></tr><tr><td>Date of birth</td><td><span>24 October 2226</span></td></tr></tbody></table></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "http://fhir.de/NamingSystem/gkv/kvid-10",
+                        "value": "9973264355"
+                    },
+                    {
+                        "system": "http://starfleet-hospital.ufp/NamingSystem/patient-identifier",
+                        "value": "NCC-1032"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Burnham",
+                        "given": [
+                            "Michael"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "+49 (0)12345 - 123456",
+                        "use": "home"
+                    }
+                ],
+                "birthDate": "2226-10-24",
+                "address": [
+                    {
+                        "extension": [
+                            {
+                                "url": "http://fhir.ufp/StructureDefinition/planet",
+                                "valueString": "Earth"
+                            }
+                        ],
+                        "use": "home",
+                        "type": "both",
+                        "line": [
+                            "Milchstrasse 42"
+                        ],
+                        "city": "Spöck",
+                        "postalCode": "76297",
+                        "country": "DE"
+                    }
+                ],
+                "maritalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/v3/MaritalStatus",
+                            "code": "U"
+                        }
+                    ]
+                },
+                "contact": [
+                    {
+                        "relationship": [
+                            {
+                                "coding": [
+                                    {
+                                        "system": "http://hl7.org/fhir/v2/0131",
+                                        "code": "N"
+                                    }
+                                ]
+                            }
+                        ],
+                        "name": {
+                            "text": "Sarek"
+                        },
+                        "telecom": [
+                            {
+                                "system": "email",
+                                "value": "sarek@vulcan-science-academy.vc"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593385",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "593385",
+                "meta": {
+                    "versionId": "2",
+                    "lastUpdated": "2020-01-30T06:58:39.634+00:00",
+                    "source": "#wt1sWlCV4XaQ5GmO"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"><b>PATCHTEST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>3300 Washtenaw </span><br/><span>Ann Harbor </span><span>MI </span><span>USA </span></td></tr></tbody></table></div>"
+                },
+                "active": false,
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "patchTest"
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "00-0000-0000",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "00-0000-1111",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "address": [
+                    {
+                        "use": "home",
+                        "text": "3300 Washtenaw Ann Harbor, MI 48104, USA",
+                        "line": [
+                            "3300 Washtenaw"
+                        ],
+                        "city": "Ann Harbor",
+                        "state": "MI",
+                        "postalCode": "48104",
+                        "country": "USA"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/593749",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "593749",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T07:09:18.474+00:00",
+                    "source": "#RV2KQwaH2YscBWQm"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"><b>PATCHTEST </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>3300 Washtenaw </span><br/><span>Ann Harbor </span><span>MI </span><span>USA </span></td></tr></tbody></table></div>"
+                },
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "patchTest"
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "00-0000-0000",
+                        "use": "home"
+                    },
+                    {
+                        "system": "phone",
+                        "value": "00-0000-1111",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "address": [
+                    {
+                        "use": "home",
+                        "text": "3300 Washtenaw Ann Harbor, MI 48104, USA",
+                        "line": [
+                            "3300 Washtenaw"
+                        ],
+                        "city": "Ann Harbor",
+                        "state": "MI",
+                        "postalCode": "48104",
+                        "country": "USA"
+                    }
+                ],
+                "multipleBirthInteger": 2
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594051",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "594051",
+                "meta": {
+                    "versionId": "2",
+                    "lastUpdated": "2020-01-30T07:36:07.765+00:00",
+                    "source": "#D3UKZxvotibCR99G"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">test <b>PATCH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>1000001</td></tr><tr><td>Address</td><td><span>3300 Washtenaw </span><br/><span>Ann Harbor </span><span>MI </span><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>30 January 2020</span></td></tr></tbody></table></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "http://example.org",
+                        "value": "1000001"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "patch",
+                        "given": [
+                            "test"
+                        ]
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "00-0000-0000",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "2020-01-30",
+                "address": [
+                    {
+                        "use": "home",
+                        "text": "3300 Washtenaw Ann Harbor, MI 48104, USA",
+                        "line": [
+                            "3300 Washtenaw"
+                        ],
+                        "city": "Ann Harbor",
+                        "state": "MI",
+                        "postalCode": "48104",
+                        "country": "USA"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594054",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "594054",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T07:40:20.190+00:00",
+                    "source": "#MtInq8vDM0BjElQj"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"><b>PATCH </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>1000001</td></tr><tr><td>Address</td><td><span>3300 Washtenaw </span><br/><span>Ann Harbor </span><span>MI </span><span>USA </span></td></tr></tbody></table></div>"
+                },
+                "identifier": [
+                    {
+                        "system": "http://example.org",
+                        "value": "1000001"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "patch"
+                    }
+                ],
+                "telecom": [
+                    {
+                        "system": "phone",
+                        "value": "00-0000-0000",
+                        "use": "home"
+                    }
+                ],
+                "gender": "male",
+                "address": [
+                    {
+                        "use": "home",
+                        "text": "3300 Washtenaw Ann Harbor, MI 48104, USA",
+                        "line": [
+                            "3300 Washtenaw"
+                        ],
+                        "city": "Ann Harbor",
+                        "state": "MI",
+                        "postalCode": "48104",
+                        "country": "USA"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594166",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "594166",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T08:44:35.595+00:00",
+                    "source": "#2mjmAbMXADNNOeJs"
+                },
+                "text": {
+                    "status": "generated"
+                },
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Serena Mustermann",
+                        "family": "Mustermann",
+                        "given": [
+                            "Serena"
+                        ]
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "home",
+                        "type": "physical",
+                        "text": "Musterweg 42, Hinterhof 2. Etage, 10787 Berlin, Deutschland",
+                        "line": [
+                            "Musterweg 42",
+                            "Hinterhof 2. Etage"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Musterweg"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "42"
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+                                        "valueString": "Hinterhof 2. Etage"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Berlin",
+                        "state": "DE-BE",
+                        "postalCode": "10787",
+                        "country": "DE"
+                    },
+                    {
+                        "use": "home",
+                        "type": "postal",
+                        "text": "Postfach 74656, 76297 Spöck, Deutschland",
+                        "line": [
+                            "Postfach 74656"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+                                        "valueString": "Postfach 74656"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Spöck",
+                        "state": "DE-BW",
+                        "postalCode": "76297",
+                        "country": "DE"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct",
+                                "valueString": "Kreuzberg"
+                            }
+                        ],
+                        "use": "work",
+                        "type": "physical",
+                        "text": "Erlanger Allee 112, Berlin Kreuzberg",
+                        "line": [
+                            "Erlanger Allee 112",
+                            "Kreuzberg"
+                        ],
+                        "city": "Berlin",
+                        "postalCode": "10787"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594169",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "594169",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T08:52:17.474+00:00",
+                    "source": "#OYg1FkrLpD0LO9LG"
+                },
+                "text": {
+                    "status": "generated"
+                },
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Serena Mustermann",
+                        "family": "Mustermann",
+                        "given": [
+                            "Serena"
+                        ]
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "home",
+                        "type": "physical",
+                        "text": "Musterweg 42, Hinterhof 2. Etage, 10787 Berlin, Deutschland",
+                        "line": [
+                            "Musterweg 42",
+                            "Hinterhof 2. Etage"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Musterweg"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "42"
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+                                        "valueString": "Hinterhof 2. Etage"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Berlin",
+                        "state": "DE-BE",
+                        "postalCode": "10787",
+                        "country": "DE"
+                    },
+                    {
+                        "use": "home",
+                        "type": "postal",
+                        "text": "Postfach 74656, 76297 Spöck, Deutschland",
+                        "line": [
+                            "Postfach 74656"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+                                        "valueString": "Postfach 74656"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Spöck",
+                        "state": "DE-BW",
+                        "postalCode": "76297",
+                        "country": "DE"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct",
+                                "valueString": "Kreuzberg"
+                            }
+                        ],
+                        "use": "work",
+                        "type": "physical",
+                        "text": "Erlanger Allee 112, Berlin Kreuzberg",
+                        "line": [
+                            "Erlanger Allee 112",
+                            "Kreuzberg"
+                        ],
+                        "city": "Berlin",
+                        "postalCode": "10787"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594175",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "594175",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T09:01:05.826+00:00",
+                    "source": "#19GJJNKlEvSO4uOL"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Vorname Vornäme <b>NACHNAME </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 2020</span></td></tr></tbody></table></div>"
+                },
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Nachname",
+                        "given": [
+                            "Vorname",
+                            "Vornäme"
+                        ]
+                    }
+                ],
+                "gender": "other",
+                "birthDate": "2020-01-01"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594176",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "594176",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T09:01:35.890+00:00",
+                    "source": "#oGYfMiklPDQBqoRZ"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Vorname Vornäme <b>NACHNAME </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Date of birth</td><td><span>01 January 2020</span></td></tr></tbody></table></div>"
+                },
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Nachname",
+                        "given": [
+                            "Vorname",
+                            "Vornäme"
+                        ]
+                    }
+                ],
+                "gender": "other",
+                "birthDate": "2020-01-01"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594177",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "594177",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T09:05:28.453+00:00",
+                    "source": "#sQoUdwqnSMu791Lu"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Klaus <b>STÖRTEBECKER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>132987456</td></tr><tr><td>Date of birth</td><td><span>01 January 1360</span></td></tr></tbody></table></div>"
+                },
+                "identifier": [
+                    {
+                        "value": "132987456"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Störtebecker",
+                        "given": [
+                            "Klaus"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1360-01-01"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594180",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "594180",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T09:15:03.275+00:00",
+                    "source": "#ecKNhn31JLKVEkDC"
+                },
+                "text": {
+                    "status": "generated"
+                },
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Serena Mustermann",
+                        "family": "Mustermann",
+                        "given": [
+                            "Serena"
+                        ]
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "home",
+                        "type": "physical",
+                        "text": "Musterweg 42, Hinterhof 2. Etage, 10787 Berlin, Deutschland",
+                        "line": [
+                            "Musterweg 42",
+                            "Hinterhof 2. Etage"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Musterweg"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "42"
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+                                        "valueString": "Hinterhof 2. Etage"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Berlin",
+                        "state": "DE-BE",
+                        "postalCode": "10787",
+                        "country": "DE"
+                    },
+                    {
+                        "use": "home",
+                        "type": "postal",
+                        "text": "Postfach 74656, 76297 Spöck, Deutschland",
+                        "line": [
+                            "Postfach 74656"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+                                        "valueString": "Postfach 74656"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Spöck",
+                        "state": "DE-BW",
+                        "postalCode": "76297",
+                        "country": "DE"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct",
+                                "valueString": "Kreuzberg"
+                            }
+                        ],
+                        "use": "work",
+                        "type": "physical",
+                        "text": "Erlanger Allee 112, Berlin Kreuzberg",
+                        "line": [
+                            "Erlanger Allee 112",
+                            "Kreuzberg"
+                        ],
+                        "city": "Berlin",
+                        "postalCode": "10787"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594185",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "594185",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T09:35:27.792+00:00",
+                    "source": "#P2QymxiQTvbNXW07"
+                },
+                "text": {
+                    "status": "generated"
+                },
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Serena Mustermann",
+                        "family": "Mustermann",
+                        "given": [
+                            "Serena"
+                        ]
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "home",
+                        "type": "physical",
+                        "text": "Musterweg 42, Hinterhof 2. Etage, 10787 Berlin, Deutschland",
+                        "line": [
+                            "Musterweg 42",
+                            "Hinterhof 2. Etage"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Musterweg"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "42"
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+                                        "valueString": "Hinterhof 2. Etage"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Berlin",
+                        "state": "DE-BE",
+                        "postalCode": "10787",
+                        "country": "DE"
+                    },
+                    {
+                        "use": "home",
+                        "type": "postal",
+                        "text": "Postfach 74656, 76297 Spöck, Deutschland",
+                        "line": [
+                            "Postfach 74656"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+                                        "valueString": "Postfach 74656"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Spöck",
+                        "state": "DE-BW",
+                        "postalCode": "76297",
+                        "country": "DE"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct",
+                                "valueString": "Kreuzberg"
+                            }
+                        ],
+                        "use": "work",
+                        "type": "physical",
+                        "text": "Erlanger Allee 112, Berlin Kreuzberg",
+                        "line": [
+                            "Erlanger Allee 112",
+                            "Kreuzberg"
+                        ],
+                        "city": "Berlin",
+                        "postalCode": "10787"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594192",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "594192",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T10:10:31.872+00:00",
+                    "source": "#nlajEf8zUxKVvXf7"
+                },
+                "text": {
+                    "status": "generated"
+                },
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Serena Mustermann",
+                        "family": "Mustermann",
+                        "given": [
+                            "Serena"
+                        ]
+                    }
+                ],
+                "address": [
+                    {
+                        "use": "home",
+                        "type": "physical",
+                        "text": "Musterweg 42, Hinterhof 2. Etage, 10787 Berlin, Deutschland",
+                        "line": [
+                            "Musterweg 42",
+                            "Hinterhof 2. Etage"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+                                        "valueString": "Musterweg"
+                                    },
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+                                        "valueString": "42"
+                                    }
+                                ]
+                            },
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+                                        "valueString": "Hinterhof 2. Etage"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Berlin",
+                        "state": "DE-BE",
+                        "postalCode": "10787",
+                        "country": "DE"
+                    },
+                    {
+                        "use": "home",
+                        "type": "postal",
+                        "text": "Postfach 74656, 76297 Spöck, Deutschland",
+                        "line": [
+                            "Postfach 74656"
+                        ],
+                        "_line": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox",
+                                        "valueString": "Postfach 74656"
+                                    }
+                                ]
+                            }
+                        ],
+                        "city": "Spöck",
+                        "state": "DE-BW",
+                        "postalCode": "76297",
+                        "country": "DE"
+                    },
+                    {
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-precinct",
+                                "valueString": "Kreuzberg"
+                            }
+                        ],
+                        "use": "work",
+                        "type": "physical",
+                        "text": "Erlanger Allee 112, Berlin Kreuzberg",
+                        "line": [
+                            "Erlanger Allee 112",
+                            "Kreuzberg"
+                        ],
+                        "city": "Berlin",
+                        "postalCode": "10787"
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594209",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "594209",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T11:02:34.582+00:00",
+                    "source": "#SCOA9qtiGjtKRQcQ"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Yves <b>XABO </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ACD45678X</td></tr><tr><td>Date of birth</td><td><span>31 December 1990</span></td></tr></tbody></table></div>"
+                },
+                "identifier": [
+                    {
+                        "value": "ACD45678X"
+                    }
+                ],
+                "name": [
+                    {
+                        "use": "official",
+                        "family": "Xabo",
+                        "given": [
+                            "Yves"
+                        ]
+                    }
+                ],
+                "gender": "male",
+                "birthDate": "1990-12-31"
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594231",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "594231",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T12:12:11.203+00:00",
+                    "source": "#NqX5tvEQO2Jvtbwg"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Phil <b>LEE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>plee311</td></tr></tbody></table></div>"
+                },
+                "identifier": [
+                    {
+                        "value": "plee311"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Lee",
+                        "given": [
+                            "Phil"
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        },
+        {
+            "fullUrl": "https://hapi.fhir.org/baseR4/Patient/594232",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "594232",
+                "meta": {
+                    "versionId": "1",
+                    "lastUpdated": "2020-01-30T12:15:29.034+00:00",
+                    "source": "#fbpKOebdmNtcZTtt"
+                },
+                "text": {
+                    "status": "generated",
+                    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Phil <b>LEE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>plee311</td></tr></tbody></table></div>"
+                },
+                "identifier": [
+                    {
+                        "value": "plee311"
+                    }
+                ],
+                "name": [
+                    {
+                        "family": "Lee",
+                        "given": [
+                            "Phil"
+                        ]
+                    }
+                ]
+            },
+            "search": {
+                "mode": "match"
+            }
+        }
+    ]
+}
